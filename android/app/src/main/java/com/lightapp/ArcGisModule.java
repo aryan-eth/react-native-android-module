@@ -3,8 +3,10 @@ package com.lightapp;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
-//import com.esri.android.map.MapView;
+
 import javax.annotation.Nonnull;
+
+//import com.esri.android.map.MapView;
 
 public class ArcGisModule extends ReactContextBaseJavaModule {
 
