@@ -19,7 +19,7 @@ public class DevicePackage implements ReactPackage {
     public List<NativeModule> createNativeModules(@Nonnull ReactApplicationContext reactContext) {
         List<NativeModule> list = new ArrayList<>();
         // add different Native Modules to the list and then return the list
-        list.add(new DeviceModule());
+        list.add(new DeviceModule(reactContext));
         return null;
     }
 
